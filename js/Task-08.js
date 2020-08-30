@@ -20,6 +20,7 @@ const createDiv = (amount) => {
     }
     boxesRef.append(...newDiv);
 } 
+
 const destroyBoxes = () => {
     boxesRef.innerHTML = '';
   }
